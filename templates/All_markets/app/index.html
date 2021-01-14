@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="google" content="notranslate" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <title>DIOR</title>
+  <link rel="stylesheet" href="css/libs.min.css" />
+  <link rel="stylesheet" href="./libs/select2/select2.min.css" />
+  <link rel="stylesheet" href="css/style.min.css" />
+</head>
+
+<style>
+  @media (max-width: 530px) {
+    .logo img {
+      min-height: 40px !important;
+    }
+  }
+</style>
+
+<body>
+  <main class="main-contact index container">
+    <div class="logo">
+      <img src="img/dior-logo.jpg" alt="" style="
+      min-height: 67px;
+      object-fit: cover;
+  " />
+    </div>
+
+    <div class="top-image">
+      <!-- <a href="https://www.kicks.se/dior/hudvard/extrem-global-anti-aging/capture-totale-day-creme-50-ml?utm_medium=website&utm_source=banner&utm_campaign=leverantor_se&utm_term=2041_dio_sampling"
+        target="_blank"> -->
+      <img src="./img/rouge-5.jpg" alt="rouge-lipstick">
+      <!-- </a> -->
+    </div>
+
+    <div class="text">
+      <p>
+        More modern and luxurious than ever, discover the new Rouge Dior.
+        Rouge Dior dresses the lips in 75 bold colors with satin, matte, metallic or velvet finishes. Long-wear lipstick
+        that ensures 16 hour of comfort on the lips.
+      </p>
+      <p>
+        Rouge Dior lipstick is part of the House of Dior’s sustanability strategy and is now refillable.
+      </p>
+      <p>
+        We invite you to test it and leave a review online. Fill in the information below to receive your complimentary
+        sample.
+      </p>
+    </div>
+
+    <form action="step_2.html" method="get" class="container user-form">
+
+      <div class="form-row two-column">
+        <div class="form-group">
+          <input class="form-input" name="first_name" type="text">
+          <label class="form-label" for="subscribe">First name</label>
+        </div>
+        <div class="form-group">
+          <input class="form-input" name="last_name" type="text">
+          <label class="form-label" for="subscribe">Second name</label>
+        </div>
+      </div>
+
+      <div class="form-row two-column">
+        <div class="custom-select">
+          <select name="gender" id="">
+            <option value="">Gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+        </div>
+        <div>
+          <input id="birth_date" class="date" name="birth_date" type="date" placeholder="Date of birth"
+            data-date="Date of birth" data-date-format="DD MMM YYYY">
+        </div>
+      </div>
+
+      <div class="form-row fullwidth">
+        <div class="form-group">
+          <input class="form-input" name="address" type="text">
+          <label class="form-label" for="address">Address</label>
+        </div>
+      </div>
+
+      <div class="form-row two-column">
+        <div class="form-group">
+          <input class="form-input" name="city" type="text">
+          <label class="form-label" for="city">City</label>
+        </div>
+        <div class="form-group">
+          <input class="form-input" name="zip" type="text">
+          <label class="form-label" for="zip">Post code</label>
+        </div>
+      </div>
+
+      <div class="form-row fullwidth focused">
+
+        <div class="custom-select">
+          <select name="country">
+            <option value="">Country</option>
+            <option value="Denmark">Denmark</option>
+            <option value="Sweden">Sweden</option>
+            <option value="Norway">Norway</option>
+            <option value="Finland">Finland</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-row fullwidth">
+        <div class="form-group">
+          <input class="form-input" name="email" type="email" id="email">
+          <label class="form-label" for="email">Email address</label>
+        </div>
+      </div>
+
+      <div class="form-row fullwidth">
+        <div class="form-group">
+          <input class="form-input" name="confirm_email" type="email" id="confirm_email">
+          <label class="form-label" for="confirm_email">Confirm email</label>
+        </div>
+      </div>
+
+      <div class="btns full">
+        <label class="btn disabled" id="customer_form_label">
+          <input type="submit" id="customer_form_submit" disabled />
+          Continue
+        </label>
+      </div>
+    </form>
+  </main>
+  <script src="js/libs.min.js"></script>
+  <script src="./libs/moment.min.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
